@@ -13,6 +13,7 @@ import Haddy from "../assets/Haddy.png"
 import Pranesh from '../assets/Pranesh.jpg'
 import Kevin from '../assets/Kevin.jpg'
 import Aastha from '../assets/aastha.jpg'
+import Mikah from '../assets/Mikah.jpg'
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
   let members = [];
@@ -104,6 +105,14 @@ function aboutRise() {
       offset: 0,
       zoom: 150,
       personalLink: "https://www.linkedin.com/in/kevin-t-huang/",
+    },
+    {
+      name: "Mikah Kainen",
+      role: "Software Engineer",
+      image: Mikah,
+      offset: -10,
+      zoom: 180,
+      personalLink: "https://www.linkedin.com/in/mikah-kainen-890488289/",
     },
   ];
 
